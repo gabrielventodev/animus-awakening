@@ -1,6 +1,6 @@
 # Animus Awakening — Plan completo de Fase 1
 
-**Estado:** propuesta ejecutable v1.1  
+**Estado:** propuesta ejecutable v1.2  
 **Motor:** Unreal Engine 5.8  
 **Plataforma objetivo:** PC  
 **Tipo de entrega:** vertical slice multijugador persistente  
@@ -27,7 +27,7 @@ La entrega debe sentirse como una pequeña muestra de un MMO, no como una colecc
 - Hay un único módulo Runtime principal y todavía no existe un target de servidor dedicado.
 - StateTree, Gameplay StateTree y el plugin MCP están habilitados.
 - Gameplay Ability System, una capa backend y una base de datos aún no forman parte del proyecto.
-- No se detectó un repositorio Git en la raíz; el control de versiones es el primer requisito técnico.
+- Git y Git LFS quedaron inicializados el 2026-08-04 sobre `main`, con seguimiento de `origin/main` en `gabrielventodev/animus-awakening`.
 - El MCP responde en esta sesión, pero actualmente solo publica su toolset de gestión de skills; la automatización directa del editor debe verificarse antes de depender de ella.
 
 ## 3. Visión de producto provisional
@@ -215,7 +215,7 @@ No comenzar producción de arte reconocible hasta aprobar el registro de origina
 
 ### Entregables
 
-- Inicializar Git y Git LFS con reglas apropiadas para Unreal.
+- **Completado:** Git y Git LFS con reglas apropiadas para Unreal y baseline publicado en `origin/main`.
 - Establecer ramas y revisión de cambios.
 - Renombrar metadatos heredados de “Top Down Game Template”.
 - Separar contenido de plantilla como prototipo heredado, sin borrarlo antes de tener baseline.
@@ -603,7 +603,7 @@ Una tarea no está terminada por “funcionar en mi máquina”. Debe cumplir:
 | Economía inflacionaria | Faucets sin sinks ni métricas | Simulación y telemetría antes de trade |
 | Infraestructura prematura | Kubernetes/microservicios antes del loop | Un backend modular y una DB en Fase 1 |
 | Arte desperdiciado | Cambia movimiento, targeting o combate tarde | Top-down confirmado y graybox hasta aprobar R5 |
-| Ausencia de control de versiones | Cambios irreversibles | Git/LFS antes de tocar arquitectura |
+| Ausencia de control de versiones | Cambios irreversibles | Mitigado: Git/LFS y baseline remoto completados |
 
 ## 12. Tablero de trabajo recomendado
 
@@ -630,7 +630,7 @@ Límites de trabajo en curso:
 
 ### Hito 1 — Baseline seguro
 
-1. Crear repositorio Git/LFS y primer commit verificable.
+1. **Completado:** crear repositorio Git/LFS y primer commit verificable.
 2. Capturar build y smoke test de la plantilla actual.
 3. Corregir nombre y metadatos del proyecto.
 4. Crear carpeta/módulo de pruebas.
