@@ -1,0 +1,49 @@
+# Unreal Engine generated content
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+StagedBuilds/
+Releases/
+
+# Generated content inside project plugins
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Per-user Unreal content and settings
+Content/Developers/
+Content/Collections/
+Config/DefaultEditorPerProjectUserSettings.ini
+*.uproject.user
+
+# Visual Studio and IDE generated files
+.vs/
+.vscode/
+.idea/
+*.sln
+*.slnx
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.code-workspace
+UpgradeLog.htm
+
+# Unreal Build Tool generated metadata
+*.modules
+*.target
+
+# Compiled and temporary files
+*.pdb
+*.iobj
+*.ipdb
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
